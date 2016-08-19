@@ -1,0 +1,11 @@
+.disclaimer {
+  background-color: #313e50;
+  min-height: 50px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  .light-text {
+    color: $gray-lighter;
+  }
+}
