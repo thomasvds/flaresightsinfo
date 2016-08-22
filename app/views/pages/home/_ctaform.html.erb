@@ -1,0 +1,6 @@
+
+<%= simple_form_for @lead, :html => {:class => 'form-inline' }, url: register_path, method: :put do |f| %>
+<%= f.input :email, :required => true, input_html: { class: 'input-getstarted' }, label: false, placeholder: "Your email..."  %>
+&nbsp;
+<%= f.button :submit, 'Get started', :class=> "btn btn-primary btn-getstarted" %>
+<% end %>
