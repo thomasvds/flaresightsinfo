@@ -7,7 +7,13 @@
 // Paddings
 .padded {
   padding-top: 5em;
-  padding-bottom: 5em;
+  padding-bottom: 3em;
+  padding-right: 13em;
+  padding-left: 13em;
+}
+
+.text-center {
+  text-align: center;
 }
 
 // Backgrounds
@@ -29,10 +35,6 @@
   flex: 1;
 }
 
-.padded {
-  padding-right: 13em;
-  padding-left: 13em;
-}
 
 body {
   display: flex;
