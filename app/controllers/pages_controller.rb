@@ -3,6 +3,9 @@ class PagesController < ApplicationController
     @lead = Lead.new
   end
 
+  def beta
+  end
+
   def register
     @lead = Lead.create(lead_params)
     SlackNotifierJob.perform_now(@lead)

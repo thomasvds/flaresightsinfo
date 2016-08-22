@@ -1,0 +1,14 @@
+.help-disclaimer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #313e50;
+  height: 40px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  .light-text {
+    color: $gray-lighter;
+  }
+}
