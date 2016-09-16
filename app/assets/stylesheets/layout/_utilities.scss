@@ -6,10 +6,15 @@
 
 // Paddings
 .padded {
-  padding-top: 5em;
-  padding-bottom: 3em;
-  padding-right: 13em;
-  padding-left: 13em;
+  padding: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.square-padded {
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .text-center {
@@ -31,7 +36,7 @@
 }
 
 .wrapper {
-  background: $gray-lighter;
+  // background: $gray-lighter;
   flex: 1;
 }
 
