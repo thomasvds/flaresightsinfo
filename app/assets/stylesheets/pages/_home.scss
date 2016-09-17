@@ -29,7 +29,7 @@
   .laptop {
     @media only screen and (min-width: 1200px) {
       position: absolute;
-      width: 65em;
+      width: 63em;
       right: -10em;
       bottom: 2em;
     }
@@ -59,8 +59,8 @@
   .ipad {
     @media only screen and (min-width: 1200px) {
       position: absolute;
-      width: 60em;
-      left: -10em;
+      width: 58em;
+      left: -14em;
       bottom: 2em;
     }
     @media only screen and (max-width: 1199px) and (min-width: 992px) {
@@ -83,9 +83,20 @@
   padding-right: 30px;
   margin-top: 60px;
 
-  img {
+  .img-container {
     width: 70px;
+    height: 70px;
     margin-right: 35px;
+  }
+
+  // Safari-only hack (otherwise images are badly rendered)
+  _::-webkit-:not(:root:root), .img-container {
+    margin-right: 75px;
+  }
+
+  img {
+    width: auto;
+    height: 100%;
   }
 
   p {
