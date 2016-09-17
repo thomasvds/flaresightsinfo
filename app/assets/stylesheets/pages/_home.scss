@@ -57,10 +57,22 @@
   }
 
   .ipad {
-    position: absolute;
-    left: 30px;
-    bottom: 50px;
-    width: 760px;
+    @media only screen and (min-width: 1200px) {
+      position: absolute;
+      width: 60em;
+      left: -10em;
+      bottom: 2em;
+    }
+    @media only screen and (max-width: 1199px) and (min-width: 992px) {
+      position: absolute;
+      width: 44em;
+      left: -10em;
+      bottom: 11em;
+    }
+    @media only screen and (max-width: 991px) {
+      padding-top: 30px;
+      width: 100%;
+    }
   }
 }
 
