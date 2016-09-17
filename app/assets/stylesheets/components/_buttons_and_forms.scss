@@ -1,0 +1,29 @@
+.btn-linkedin-perso {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  width: 25px;
+  height: 25px;
+  padding-top: 1px;
+  padding-left: 6px;
+  text-align: center;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .btn-getstarted {
+    margin-left:0px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    min-height: 36px;
+  }
+
+  .input-getstarted {
+    margin-right:-10px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+}

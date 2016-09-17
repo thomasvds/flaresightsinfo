@@ -1,0 +1,49 @@
+.banner {
+  color: white;
+  text-align: center;
+  height: 390px;
+  // height: 30vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // margin-top: 50px;
+  .banner-content {
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+
+    h1 {
+      font-size: 60px;
+      font-family: 'Cubano';
+      font-weight: 'lighter';
+      letter-spacing: 3px;
+      margin-top: 35px;
+    }
+
+    p {
+      font-size: 24px;
+      font-family: 'GT Eesti';
+      font-weight: lighter;
+      color: rgba(255, 255, 255, 0.7);
+      margin-bottom: 20px;
+    }
+
+    @media only screen and (max-width: 575px) {
+      h1 {
+        font-size: 45px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .cta-form {
+      margin-top: 25px;
+      margin-bottom: 25px;
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+  }
+}
