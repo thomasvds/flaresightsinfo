@@ -87,6 +87,11 @@
     width: 70px;
     height: 70px;
     margin-right: 35px;
+
+    @media only screen and (max-width: 500px) {
+      margin-right: 10px;
+    }
+
   }
 
   // Safari-only hack (otherwise images are badly rendered)
